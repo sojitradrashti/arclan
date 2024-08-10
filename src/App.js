@@ -12,12 +12,12 @@ function App() {
   return (
     <div>
       <Navbar />
-      {/* <Title />
+      <Title />
       <Flexbox />
       <Collection />
       <Watch />
       <Box />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }
