@@ -42,16 +42,12 @@
     }
   }
   
-  /* Media Query for Mobile Devices */
   @media (max-width: 768px) {
     .boxcontainer {
-      padding: 2rem 1rem;
-      flex-direction: column;
-      align-items: stretch;
+      padding: 2rem;
     }
   
     .boxes {
-      flex-direction: column;
       gap: 20px;
     }
   
