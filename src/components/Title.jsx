@@ -8,7 +8,7 @@ const Title = () => {
         <img src="./assets/1.jpg" alt="image" />
       </div>
       <div className="herotxt">
-        <h1>
+        <h1 className="text-h1">
           Timeless Luxury <br /> Watches
         </h1>
         <p>
@@ -17,7 +17,9 @@ const Title = () => {
           with watches that <br /> embody precision, sophistication, and
           enduring <br /> quality
         </p>
-        <button className="btn">Explore More</button>
+        <div>
+          <button className="btn">Explore More</button>
+        </div>
       </div>
     </div>
   );
