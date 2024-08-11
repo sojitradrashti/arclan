@@ -1,5 +1,6 @@
 import React from "react";
-import "./FlexboxStyles.css";
+import "./Styles/FlexboxStyles.css";
+
 
 const Flexbox = () => {
   return (
