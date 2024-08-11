@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import Title from './components/Title';
@@ -10,14 +9,14 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
+    <div style={{backgroundColor:"black"}}>
       <Navbar />
-      {/* <Title />
+      <Title />
       <Flexbox />
       <Collection />
       <Watch />
       <Box />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }

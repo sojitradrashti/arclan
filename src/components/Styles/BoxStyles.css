@@ -1,0 +1,12 @@
+.boxcontainer{
+ width: 100%;
+ height: 100%;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.boxes img{
+    width: 50%;
+    height: 100%;
+}
