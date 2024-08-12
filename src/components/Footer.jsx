@@ -3,10 +3,11 @@ import React from "react";
 const Footer = () => {
     return (
       <footer className="footer">
-        <div className="footer-content">
-          <div className="footer-section">
-            <h1 className="logo">Arctan</h1>
-            <p>High-level experience in web design and development knowledge, producing quality work.</p>
+        <div className="footer-content" style={{display:"flex",justifyContent:"space-between"}}>
+          <div className="footer-section" >
+            <h1 className="logo">Arclan</h1>
+            <p>High-level experience in web design and <br/>development knowledge, producing quality work.</p>
+            <hr/>
             <p>© 2024 All Rights Reserved</p>
           </div>
           
@@ -22,7 +23,7 @@ const Footer = () => {
             <p>+1 800 854-36-80</p>
           </div>
           
-          <div className="footer-section">
+          <div className="footer-section" style={{textDecoration:"none", listStyleType:"none"}}>
             <h2>Customer Care</h2>
             <ul>
               <li>About Us</li>

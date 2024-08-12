@@ -26,27 +26,51 @@ body {
     min-width: 200px;
   }
   
-  .footer-section h1, .footer-section h2 {
+  .footer-section h1,
+  .footer-section h2 {
     margin-bottom: 10px;
+    font-weight: bold;
   }
   
-  .footer-section p, .footer-section ul, .footer-section li {
+  .footer-section p {
     margin: 5px 0;
+    line-height: 1.6;
   }
   
   .footer-section ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
+  }
+  .footer-section ul li {
+    text-decoration: none; /* Ensures no underline or other text decorations */
+  }
+  .footer-section ul li::marker {
+    content: none; /* Removes any bullet markers (if necessary) */
+  }
+  .footer-section li {
+    margin: 5px 0;
+  }
+  
+  .footer-section hr {
+    margin: 10px 0;
+    border: 0;
+    border-top: 1px solid #444;
   }
   
   .footer-section .social-icons {
     display: flex;
     gap: 15px;
+    margin: 10px 0;
   }
   
   .social-icons i {
     font-size: 20px;
     cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .social-icons i:hover {
+    color: #ccc;
   }
   
   @media (max-width: 768px) {
@@ -54,9 +78,7 @@ body {
       flex-direction: column;
       align-items: center;
     }
-  }
   
-  @media (max-width: 480px) {
     .footer-section {
       min-width: 100%;
       text-align: center;
