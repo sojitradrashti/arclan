@@ -80,6 +80,10 @@
     border-radius: 10px;
   }
 
+  .photo2 {
+    height: 17vh;
+    margin: 0px;
+  }
   .txt h1 {
     font-size: 1.875rem;
   }
