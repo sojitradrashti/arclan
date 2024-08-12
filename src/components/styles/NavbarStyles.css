@@ -6,10 +6,6 @@
     background-color: white;
   }
   
-  .navbar-logo .logo-text {
-    
-  }
-  
   .navbar-links {
     display: flex;
     gap: 20px;

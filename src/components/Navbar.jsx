@@ -14,7 +14,7 @@ const Navbar = () => {
     <>
       <div className="navbar">
         <div className="navbar-logo">
-          <img alt="logo" src="./assets/logo.png" className="logo-text"/>
+          <img alt="logo" src="./assets/logo.png" className="logo-text" />
         </div>
         <div className="navbar-second-div">
           <div className="navbar-links">
@@ -24,15 +24,18 @@ const Navbar = () => {
             <span>Contact</span>
           </div>
           <div className="navbar-icons">
-            <span className="icon"><CiSearch /></span>
-            <span className="icon"><IoBagOutline /></span>
-            <span className="icon"><FiUser /></span>
+            <span className="icon">
+              <CiSearch />
+            </span>
+            <span className="icon">
+              <IoBagOutline />
+            </span>
+            <span className="icon">
+              <FiUser />
+            </span>
 
             <span className="icon"></span>
-            <span
-              onClick={handleClickOpen}
-              className="menu-icon"
-            >
+            <span onClick={handleClickOpen} className="menu-icon">
               {open ? "X" : "≡"}
             </span>
           </div>
@@ -40,7 +43,7 @@ const Navbar = () => {
       </div>
       {open && (
         <div className="mobile-navbar">
-          <div className="mobile-navbar-links">
+          <div style={{ color: "black" }} className="mobile-navbar-links">
             <span>Home</span>
             <span>About</span>
             <span>Shop</span>

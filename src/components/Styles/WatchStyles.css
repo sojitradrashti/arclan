@@ -88,12 +88,12 @@
 
 @media (max-width: 480px) {
   .picture {
-    width: 100vw;
-    height: 30vh;
+    width: 85vw;
+    height: 20vh;
   }
 
   .paragraph {
-    width: 100%;
+    width: 80%;
     font-size: 0.8rem;
   }
 }
