@@ -1,16 +1,25 @@
 import React from "react";
 
 const Footer = () => {
-    return (
-      <footer className="footer">
-        <div className="footer-content" style={{display:"flex",justifyContent:"space-between"}}>
-          <div className="footer-section" >
-            <h1 className="logo">Arclan</h1>
-            <p>High-level experience in web design and <br/>development knowledge, producing quality work.</p>
-            <hr/>
-            <p>© 2024 All Rights Reserved</p>
-          </div>
-          
+  return (
+    <footer className="footer">
+      <div
+        className="footer-content"
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+        }}
+      >
+        <div className="footer-section">
+          <h1 className="logo">Arclan</h1>
+          <p>
+            High-level experience in web design and <br />
+            development knowledge, producing quality work.
+          </p>
+          <hr />
+          <p>© 2024 All Rights Reserved</p>
+        </div>
+        <div className="section-2" style={{ display: "flex", justifyContent:"center" }}>
           <div className="footer-section">
             <h2>Follow us</h2>
             <div className="social-icons">
@@ -22,8 +31,11 @@ const Footer = () => {
             <p>Call us</p>
             <p>+1 800 854-36-80</p>
           </div>
-          
-          <div className="footer-section" style={{textDecoration:"none", listStyleType:"none"}}>
+
+          <div
+            className="footer-section"
+            style={{ textDecoration: "none", listStyleType: "none" }}
+          >
             <h2>Customer Care</h2>
             <ul>
               <li>About Us</li>
@@ -33,7 +45,7 @@ const Footer = () => {
               <li>Wholesale Policy</li>
             </ul>
           </div>
-          
+
           <div className="footer-section">
             <h2>Quick Shop</h2>
             <ul>
@@ -44,7 +56,7 @@ const Footer = () => {
               <li>Terms of Use</li>
             </ul>
           </div>
-          
+
           <div className="footer-section">
             <h2>Company</h2>
             <ul>
@@ -56,8 +68,9 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-      </footer>
-    );
-  }
+      </div>
+    </footer>
+  );
+};
 
 export default Footer;

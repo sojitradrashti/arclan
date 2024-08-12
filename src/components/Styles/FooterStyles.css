@@ -1,91 +1,88 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .footer {
-    background-color: #000;
-    color: #fff;
-    padding: 40px 20px;
-    display: flex;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.footer-section {
+  margin: 20px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-section h1,
+.footer-section h2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-section p {
+  margin: 5px 0;
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer-section ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.footer-section li {
+  margin: 5px 0;
+}
+
+.footer-section hr {
+  margin: 10px 0;
+  border: 0;
+  border-top: 1px solid #444;
+}
+
+.footer-section .social-icons {
+  display: flex;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.social-icons i {
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.social-icons i:hover {
+  color: #ccc;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
     flex-direction: column;
     align-items: center;
   }
-  
-  .footer-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1200px;
-  }
-  
   .footer-section {
-    margin: 20px;
-    flex: 1;
-    min-width: 200px;
+    min-width: 100%;
+    text-align: center;
   }
-  
-  .footer-section h1,
-  .footer-section h2 {
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-  
-  .footer-section p {
-    margin: 5px 0;
-    line-height: 1.6;
-  }
-  
-  .footer-section ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  .footer-section ul li {
-    text-decoration: none; /* Ensures no underline or other text decorations */
-  }
-  .footer-section ul li::marker {
-    content: none; /* Removes any bullet markers (if necessary) */
-  }
-  .footer-section li {
-    margin: 5px 0;
-  }
-  
-  .footer-section hr {
-    margin: 10px 0;
-    border: 0;
-    border-top: 1px solid #444;
-  }
-  
+
   .footer-section .social-icons {
-    display: flex;
-    gap: 15px;
-    margin: 10px 0;
+    justify-content: center;
   }
-  
-  .social-icons i {
-    font-size: 20px;
-    cursor: pointer;
-    transition: color 0.3s;
-  }
-  
-  .social-icons i:hover {
-    color: #ccc;
-  }
-  
-  @media (max-width: 768px) {
-    .footer-content {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .footer-section {
-      min-width: 100%;
-      text-align: center;
-    }
-  
-    .footer-section .social-icons {
-      justify-content: center;
-    }
-  }
-  
+}
